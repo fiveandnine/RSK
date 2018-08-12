@@ -1,0 +1,30 @@
+
+.checkbox_root{
+  margin-left: 70px;
+}
+.checkbox_title{
+
+}
+.checkbox_item{
+  margin: 5px 10px;
+}
+.checkbox_idot{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border:1px solid #000;
+  border-radius: 1px;
+  margin-right: 5px;
+}
+.is_active{
+  padding: 1px;
+  border:1px solid #fff;
+}
+.is_active i{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  border-radius: 1px;
+  background-color: #3b5998;
+}

@@ -1,0 +1,27 @@
+@import "../bemify";
+
+@include block('m-search-input'){
+  line-height: 1;
+  padding: 16px 30px 32px;
+  @include element('input'){
+    padding: 13px 40px;
+    border-radius: 8px;
+    border: 1PX solid #EBEBEB;
+    display: block;
+    width: 85%;
+    overflow: hidden;
+    font-size: 28px;
+    -webkit-appearance:none;
+    &::-webkit-input-placeholder{
+      color:#999;
+    }
+    &::-webkit-search-cancel-button {display: none;};
+  }
+  @include element('button'){
+    font-size: 32px;
+    color: #999999;
+    float: right;
+    line-height: 76px;
+    font-weight: bold;
+  }
+}

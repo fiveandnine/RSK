@@ -1,0 +1,23 @@
+
+.radio_root{
+  margin-left: 70px;
+}
+.radio_title{
+
+}
+.radio_item{
+  margin: 5px 10px;
+}
+.radio_idot{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border:1px solid #000;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.isactive{
+  background-color: #3b5998;
+  padding: 1px;
+  border:1px solid #fff;
+}

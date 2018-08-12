@@ -1,0 +1,13 @@
+.textarea_root{
+  margin-left: 70px;
+}
+.textarea_root textarea{
+  padding: 2px 2px 25px 2px;
+  min-height: 50px;
+  /*width: 300px;*/
+}
+.textarea_words{
+  position: relative;
+  top: -25px;
+  left: 2px;
+}

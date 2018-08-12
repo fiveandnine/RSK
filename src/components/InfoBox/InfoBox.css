@@ -1,0 +1,20 @@
+.root{
+  border: 1px solid #2d4373;
+  margin: 50px;
+}
+.root:hover{
+  border: 2px solid #2d4373;
+}
+.boxHeader{
+  margin: 20px;
+  border-bottom: 1px solid #888888;
+}
+.editIcon{
+  float: right;
+}
+.defaultBody{
+  text-align: center;
+}
+.boxBody{
+  margin: 20px;
+}

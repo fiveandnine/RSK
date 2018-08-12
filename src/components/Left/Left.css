@@ -1,0 +1,30 @@
+@import '../variables.css';
+
+
+.root_item {
+  color: #333333;
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 10px 40px;
+  max-width: var(--max-content-width);
+}
+.root_item:hover {
+  color: #000000;
+  cursor: pointer;
+}
+.link {
+  display: inline-block;
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: 14px; /* ~18px */
+}
+
+.link,
+.link:active,
+.link:visited {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 1);
+}

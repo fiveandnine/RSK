@@ -1,0 +1,18 @@
+.root{
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+.layer__cover,.layer__cover_touch{
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+}
+.tipsBody{
+  color: #61dafb;
+}
